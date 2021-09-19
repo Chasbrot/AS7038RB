@@ -1,7 +1,7 @@
 #include "AS7038RB.h"
 
 #ifdef NRF52
-    #include "../EasyTWI.h"
+    #include "EasyTWI.h"
     #include "nrf.h"
     #include "boards.h"
     #include "nrf_gpio.h"
